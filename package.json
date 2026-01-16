@@ -14,7 +14,7 @@
     "test:login-data": "playwright test tests/login-data.spec.ts --project=chromium --headed",
     "test:home": "playwright test home --project=chromium --headed",
     "test:myinfo": "playwright test myinfo --project=chromium --headed",
-    "test:getByRole": "playwright test tests/getByRole.spec.ts --project=chromium --headed",
+    "test:getByRole": "playwright test tests/getByRole.spec.ts --project=chromium",
     "test:api": "playwright test tests/testAPI.spec.ts --project=chromium --headed"
   },
   "keywords": [],
